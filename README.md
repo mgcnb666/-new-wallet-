@@ -1,47 +1,51 @@
-# 多链钱包生成器
+# Multi-Chain Wallet Generator
 
-一个安全的多链钱包生成工具，可以批量生成以太坊(ETH)、比特币(BTC)和索拉纳(SOL)的地址和私钥。
+A secure multi-chain wallet generation tool that can batch generate addresses and private keys for Ethereum (ETH), Bitcoin (BTC), and Solana (SOL).
 
-## 主要功能
+## Main Features
 
-- 🔐 完全离线运行，保证安全
-- 📝 批量生成钱包（无数量限制）
-- 💾 导出钱包信息为文本文件
-- 🌐 支持断网使用
-- 🔗 支持多链（ETH、BTC、SOL）
-- 💻 现代化的用户界面
+- 🔐 **Completely Offline**: Ensures maximum security
+- 📝 **Batch Wallet Generation**: No limit on the number of wallets
+- 💾 **Export Wallet Information**: Save wallet data as a text file
+- 🌐 **Offline Support**: Can be used without an internet connection
+- 🔗 **Multi-Chain Support**: Supports ETH, BTC, and SOL
+- 💻 **Modern User Interface**
 
-## 支持的区块链
+## Supported Blockchains
 
-- 以太坊 (ETH)
-- 比特币 (BTC)
-- 索拉纳 (SOL)
+- Ethereum (ETH)
+- Bitcoin (BTC)
+- Solana (SOL)
 
-## 安全使用说明
+## Security Usage Instructions
 
-为了最大程度保证安全，请按照以下步骤使用：
+To ensure maximum security, please follow these steps:
 
-1. 克隆并安装项目
-2. 运行项目并加载页面
-3. **断开网络连接**
-4. 生成所需的钱包
-5. 保存钱包信息
-6. 使用完毕后清除浏览器缓存
+1. Clone and install the project.
+2. Run the project and load the page.
+3. Disconnect from the network.
+4. Generate the desired wallets.
+5. Save the wallet information.
+6. Clear your browser cache after use.
 
-## 开发部署
+## Development Deployment
 
+### Install Dependencies
 ```bash
-# 安装依赖
 npm install
+```
 
-# 启动开发服务器
+### Start Development Server
+```bash
 npm run dev
+```
 
-# 构建生产版本
+### Build Production Version
+```bash
 npm run build
 ```
 
-## 技术栈
+## Tech Stack
 
 - React + TypeScript
 - Vite
@@ -51,16 +55,16 @@ npm run build
 - TailwindCSS
 - Lucide Icons
 
-## 安全提示
+## Security Tips
 
-⚠️ 重要安全提醒：
+⚠️ **Important Security Reminder**:
 
-- 私钥是访问您钱包的唯一凭证，请务必安全保管
-- 建议在断网环境下使用本工具
-- 切勿将私钥分享给任何人
-- 生成钱包后，建议立即将信息保存到安全的离线位置
-- 生成大量钱包时请注意系统资源消耗
+- Your private key is the only credential to access your wallet; keep it secure.
+- It is recommended to use this tool in an offline environment.
+- Never share your private key with anyone.
+- After generating wallets, save the information in a safe offline location.
+- Be mindful of system resource consumption when generating a large number of wallets.
 
-## 免责声明
+## Disclaimer
 
-本工具仅供学习和研究使用。用户需自行承担使用本工具的风险，请务必妥善保管生成的私钥。开发者不对因使用本工具而导致的任何损失负责。
+This tool is for educational and research purposes only. Users assume all risks associated with using this tool, and it is essential to keep the generated private keys secure. The developer is not responsible for any losses resulting from the use of this tool.
